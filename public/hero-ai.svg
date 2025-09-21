@@ -1,0 +1,36 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="strokeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6AC1"/>
+      <stop offset="100%" stop-color="#00F5D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#g1)"/>
+  <g opacity="0.35">
+    <path d="M350 250 C500 120, 700 120, 850 250" stroke="url(#strokeGrad)" stroke-width="3" fill="none"/>
+    <path d="M320 340 C520 220, 680 220, 880 340" stroke="url(#strokeGrad)" stroke-width="2" fill="none"/>
+    <path d="M380 430 C520 360, 680 360, 820 430" stroke="url(#strokeGrad)" stroke-width="2" fill="none"/>
+  </g>
+  <g opacity="0.9">
+    <circle cx="600" cy="520" r="240" fill="#0F1126" stroke="url(#strokeGrad)" stroke-opacity="0.5"/>
+    <g opacity="0.8">
+      <path d="M520 420 C560 380, 640 380, 680 420" stroke="#DDE3EA" stroke-width="2" fill="none"/>
+      <path d="M500 470 C560 430, 640 430, 700 470" stroke="#DDE3EA" stroke-width="1.5" fill="none"/>
+      <path d="M510 520 C570 490, 630 490, 690 520" stroke="#DDE3EA" stroke-width="1.5" fill="none"/>
+      <path d="M520 570 C570 550, 630 550, 680 570" stroke="#DDE3EA" stroke-width="1.2" fill="none"/>
+    </g>
+  </g>
+  <g opacity="0.25">
+    <circle cx="250" cy="220" r="3" fill="#FFFFFF"/>
+    <circle cx="980" cy="180" r="2" fill="#FFFFFF"/>
+    <circle cx="1080" cy="360" r="2" fill="#FFFFFF"/>
+    <circle cx="140" cy="480" r="2" fill="#FFFFFF"/>
+    <circle cx="300" cy="620" r="2" fill="#FFFFFF"/>
+  </g>
+  <text x="50%" y="92%" text-anchor="middle" fill="#E0E0E0" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto" font-size="18" opacity="0.55">Replace this placeholder with your hero image (public/hero-ai.svg or .png)</text>
+</svg>
